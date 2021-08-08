@@ -36,7 +36,7 @@
     
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css">
-    
+	
 </head>
 
 <body>
@@ -95,7 +95,7 @@
                                         <a class="page-scroll" href="#about">About</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#facts">Portfolio</a>
+                                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#team">Awsome Features</a>
@@ -321,66 +321,117 @@
     
     <!--====== ABOUT PART ENDS ======-->
     
-    <!--====== VIDEO COUNTER PART START ======-->
-    
-    <section id="facts" class="video-counter pt-70">
+    <!--====== PORTFOLIO SECTION FROM Consult website ======-->
+	
+	
+	<section id="portfolio" class="project-masonry-area pt-115">
+	
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="video-content mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img class="dots" src="assets/images/dots.svg" alt="dots">
-                        <div class="video-wrapper">
-                            <div class="video-image">
-                                <img src="assets/images/video.png" alt="video">
-                            </div>
-                            <div class="video-icon">
-                                <a href="https://www.youtube.com/watch?v=r44RKWyfcFw" class="video-popup"><i class="lni-play"></i></a>
-                            </div>
-                        </div> <!-- video wrapper -->
-                    </div> <!-- video content -->
+            <div class="row align-items-end">
+                <div class="col-lg-4">
+                    <div class="section-title pb-20  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <h6 class="sub-title">Portfolio</h6>
+                        <h4 class="title">Portfolio <span>Gallery.</span></h4>
+                    </div> <!-- section title -->
                 </div>
-                <div class="col-lg-6">
-                    <div class="counter-wrapper mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="counter-content">
-                            <div class="section-title">
-                                <div class="line"></div>
-                                <h3 class="title">Cool facts <span> this about app</span></h3>
-                            </div> <!-- section title -->
-                            <p class="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                        </div> <!-- counter content -->
-                        <div class="row no-gutters">
-                            <div class="col-4">
-                                <div class="single-counter counter-color-1 d-flex align-items-center justify-content-center">
-                                    <div class="counter-items text-center">
-                                        <span class="count"><span class="counter">125</span>K</span>
-                                        <p class="text">Downloads</p>
-                                    </div>
-                                </div> <!-- single counter -->
-                            </div>
-                            <div class="col-4">
-                                <div class="single-counter counter-color-2 d-flex align-items-center justify-content-center">
-                                    <div class="counter-items text-center">
-                                        <span class="count"><span class="counter">87</span>K</span>
-                                        <p class="text">Active Users</p>
-                                    </div>
-                                </div> <!-- single counter -->
-                            </div>
-                            <div class="col-4">
-                                <div class="single-counter counter-color-3 d-flex align-items-center justify-content-center">
-                                    <div class="counter-items text-center">
-                                        <span class="count"><span class="counter">4.8</span></span>
-                                        <p class="text">User Rating</p>
-                                    </div>
-                                </div> <!-- single counter -->
-                            </div>
-                        </div> <!-- row -->
-                    </div> <!-- counter wrapper -->
+                <div class="col-lg-8">
+                    <div class="project-menu text-center text-sm-left text-lg-right pb-20">
+                        <ul>
+                            <li class="active" data-filter="*">See All</li>
+                            <li data-filter=".apps">Apps</li>
+                            <li data-filter=".branding">Branding</li>
+                            <li data-filter=".creative">Creative</li>
+                            <li data-filter=".laptop">Laptop</li>
+                            <li data-filter=".product">Product</li>
+                        </ul>
+                    </div> <!-- project menu -->
+                </div>
+            </div> <!-- row -->
+            <div class="row grid">
+                <div class="col-lg-4 col-sm-6 grid-item apps creative laptop">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="assets/images/protfolio-1.jpg" alt="protfolio">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="assets/images/protfolio-1.jpg">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+                <div class="col-lg-4 col-sm-6 grid-item branding creative">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="assets/images/protfolio-2.jpg" alt="protfolio">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="assets/images/protfolio-2.jpg">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+                <div class="col-lg-4 col-sm-6 grid-item apps branding product">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="assets/images/protfolio-3.jpg" alt="protfolio">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="assets/images/protfolio-3.jpg">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+                <div class="col-lg-4 col-sm-6 grid-item laptop product">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="assets/images/protfolio-5.jpg" alt="protfolio">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="assets/images/protfolio-5.jpg">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+                <div class="col-lg-4 col-sm-6 grid-item branding creative">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="assets/images/protfolio-4.jpg" alt="protfolio">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="assets/images/protfolio-4.jpg">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+                <div class="col-lg-4 col-sm-6 grid-item apps laptop product">
+                    <div class="single-gallery gallery-masonry mt-30">
+                        <div class="gallery-image">
+                            <img src="assets/images/protfolio-6.jpg" alt="protfolio">
+                        </div>
+                        <div class="gallery-icon">
+                            <a class="image-popup" href="assets/images/protfolio-6.jpg">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> <!-- single gallery -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="gallery-btn mt-60 text-center">
+                        <a class="main-btn" href="#">Load More</a>
+                    </div>
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
     
-    <!--====== VIDEO COUNTER PART ENDS ======-->
+	<!--====== PORTFOLIO PART ENDS ======-->
     
     <!--====== TEAM PART START ======-->
     
@@ -821,6 +872,13 @@
     
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+    
+	
+	<!-- Consult JS -->
+	
+    <!--====== Isotope js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
     
 </body>
 
