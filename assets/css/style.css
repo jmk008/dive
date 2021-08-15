@@ -19,6 +19,7 @@
     04.SERVICES
     05.ABOUT
     06.Portfolio Section CSS
+	6.1 Awesome Features
     07.TEAM
     08.TESTIMONIAL
     09.BLOG
@@ -1099,6 +1100,122 @@ p {
 .gallery-masonry {
   border-radius: 7px;
   overflow: hidden; }
+
+/*===========================
+       6.1. Awesome Features 
+===========================*/
+
+#awesome_features .section-padding {
+  padding: 60px 0;
+}
+
+#awesome_features .section-header {
+  margin-bottom: 30px;
+}
+
+#awesome_features .section-header p {
+  text: center;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.section-title {
+  font-size: 30px;
+  color: #222222;
+  display: inline-block;
+  font-weight: 700;
+  position: relative;
+}
+
+#awesome_features {
+  background: #fff;
+}
+
+#awesome_features .icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#awesome_features .content-left span {
+  float: right;
+}
+
+#awesome_features .content-left .text {
+  text-align: right;
+}
+
+#awesome_features .content-right span {
+  float: left;
+}
+
+#awesome_features .box-item {
+  box-shadow: 0 0 12px #F4F4F4;
+  padding: 15px;
+  line-height: 22px;
+  margin-top: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  -mox-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  position: relative;
+  top: 0;
+}
+
+#awesome_features .box-item .icon {
+  text-align: center;
+  margin: 12px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#awesome_features .box-item .icon i {
+  color: #F63854;
+  font-size: 30px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#awesome_features .box-item .text h4 {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#awesome_features .box-item .text p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+#awesome_features .box-item:hover {
+  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+}
+
+#awesome_features .box-item:hover h4 {
+  color: #F63854;
+}
+
+#awesome_features .show-box {
+  margin-top: 50px;
+}
+
+#awesome_features .show-box img {
+  width: 100%;
+}
 
 	
 /*===========================
